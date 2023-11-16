@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: "Bold";
+    src: url(../../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+section {
+    .container {
+        padding: 0 145px;
+
+        .section_title {
+            text-align: center;
+
+            h3 {
+                color: #FFF;
+                font-family: "Bold";
+                font-size: 34px;
+                font-weight: 700;
+            }
+
+            p {
+                color: #FFF;
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+            }
+        }
+
+        .section_boxs {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 32px;
+
+            .section_box {
+                border-radius: 8px;
+                background: #FFF;
+
+                img {
+                    max-width: 330px;
+                    border-radius: 8px;
+                }
+
+                .section_box-text {
+                    padding: 22px 30px 40px 24px;
+
+                    p {
+                        color: #22343D;
+                        font-family: "Regular";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 28px;
+
+                        span {
+                            font-weight: 700;
+                        }
+                    }
+
+                    h6 {
+                        color: #22343D;
+                        font-family: "Bold";
+                        font-size: 24px;
+                        font-weight: 700;
+                        line-height: 40px;
+                        margin-top: 12px;
+                        max-width: 275px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    section {
+        .container {
+            padding: 0 120px;
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 990px) {
+    section {
+        .container {
+            padding: 0 80px;
+
+            .section_boxs {
+                .section_box {
+
+                    .section_box-text {
+                        padding: 22px 30px 40px 24px;
+
+                        p {
+                            font-size: 16px;
+
+                            span {
+                                font-weight: 700;
+                            }
+                        }
+
+                        h6 {
+                            font-size: 24px;
+                            line-height: 40px;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 448px) and (max-width: 768px) {
+    section {
+        .container {
+            padding: 0 50px;
+
+            .section_boxs {
+                .section_box {
+                    width: 300px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .section_box-text {
+                        padding: 20px 20px 30px 20px;
+
+                        p {
+                            font-size: 15px;
+                        }
+
+                        h6 {
+                            font-size: 20px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 447px) {
+    section {
+        .container {
+            padding: 0 30px;
+
+            .section_boxs {
+                .section_box {
+                    width: 250px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                    .section_box-text {
+                        padding: 15px 15px 20px 15px;
+
+                        p {
+                            font-size: 14px;
+                        }
+
+                        h6 {
+                            font-size: 18px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

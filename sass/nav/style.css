@@ -82,12 +82,12 @@ nav .container .nav_left .info button {
   background: #02897A;
   padding: 24px;
   border: none;
+  cursor: pointer;
   color: #FFF;
   font-feature-settings: "clig" off, "liga" off;
   font-family: "SamaBold";
   font-size: 16px;
   font-weight: 600;
-  line-height: 0px;
 }
 
 @media (min-width: 1201px) {
